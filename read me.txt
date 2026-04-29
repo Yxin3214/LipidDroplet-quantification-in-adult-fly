@@ -1,0 +1,9 @@
+1. The confocal image from a single-layer scan is saved in any format to a folder ("C:\Users\83953\Desktop\AN-NACH-20260317" for me).
+
+2. Calculate the approximate actual area represented by the size of a single scan pixel and replace the value in the following line of code:
+PIXEL_TO_UM2 = 0.0358 # Square micrometers per pixel (corrected to 0.0358)
+
+3. Replace the local folder address with your own:
+image_dir = r'C:\Users\83953\Desktop\AN-NACH-20260317'
+
+4. Run
